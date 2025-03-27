@@ -83,6 +83,7 @@ export async function updatePasswordWithToken({formData, token}: {formData: NewP
 
 export async function getUser(){
     try {
+        
         const {data} = await api<User>('/auth/user')
         const response = userSchema.parse(data)
         return response
