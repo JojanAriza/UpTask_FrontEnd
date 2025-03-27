@@ -31,7 +31,7 @@ export default function Router() {
 
                     <Route element={<ProfileLayout/>}>
                         <Route path="/profile" element={<ProfileView/>}/>
-                        <Route path="/profile/password" element={<ChangePassword/>}/>
+                        <Route path="/profile/password" element={<ChangePassword  />}/>
                     </Route>
 
                 </Route>
